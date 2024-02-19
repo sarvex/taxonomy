@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@editorjs/code':
     specifier: ^2.8.0
@@ -200,8 +204,8 @@ dependencies:
     specifier: ^0.11.1
     version: 0.11.1
   stripe:
-    specifier: ^11.18.0
-    version: 11.18.0
+    specifier: ^14.17.0
+    version: 14.17.0
   tailwind-merge:
     specifier: ^1.12.0
     version: 1.12.0
@@ -770,10 +774,6 @@ packages:
     peerDependencies:
       '@effect-ts/otel-node': '*'
     peerDependenciesMeta:
-      '@effect-ts/core':
-        optional: true
-      '@effect-ts/otel':
-        optional: true
       '@effect-ts/otel-node':
         optional: true
     dependencies:
@@ -7404,8 +7404,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  /stripe@11.18.0:
-    resolution: {integrity: sha512-OUA32uhNoSoM6wOodyFbV+3IBCoO140uzdXmBArQ0S88D4EbH91xl2v+Ml1sKalcFKUBadHLeHfU/p9AbsOfGw==}
+  /stripe@14.17.0:
+    resolution: {integrity: sha512-iwV5SKoXuRIQFne4twGwiiczOkVW73eE2CKn6ltUKCacDy4SGHBX6kj1/xCV2bzzzQjcVtsh5F1aAbJTmf3tLw==}
     engines: {node: '>=12.*'}
     dependencies:
       '@types/node': 18.16.0
